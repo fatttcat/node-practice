@@ -33,6 +33,8 @@ const routes = [
       {path: '/articles/create', component: ArticleEdit},
       {path: '/articles/list/:id', component: ArticleEdit, props: true},
       {path: '/articles/list', component: ArticleList},
+
+      //
     ]
   }
 ]
