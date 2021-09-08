@@ -1,7 +1,7 @@
 const express = require('express')
 
 const app = express()
-
+app.set('secret', 'dasdsyu')
 // 要写在注册路由的前面
 app.use(require('cors')())
 app.use(express.json())
